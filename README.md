@@ -27,3 +27,14 @@ Este repositorio contiene los scripts de simulación y código desarrollado para
      proyecto1
      ```
   3. Ingresar los parámetros solicitados.
+
+### Proyecto Individual 2: Tabla de Routh-Hurwitz y Root Locus
+* **Archivo:** `proyecto2.m`
+* **Descripción:** Simulación paramétrica que solicita la ubicación de polos, ceros y la ganancia de lazo abierto de $G(s)$. Construye la ecuación característica $1 + KG(s) = 0$, genera la matriz de Routh-Hurwitz para evaluar la estabilidad del sistema (con su respectiva justificación) y grafica el Lugar Geométrico de las Raíces (Root Locus) resaltando los polos y ceros.
+* **Uso:**
+  1. Abrir MATLAB.
+  2. Ejecutar en la consola:
+     ```matlab
+     proyecto2
+     ```
+  3. Ingresar los vectores de ceros (ej. `[]`), polos (ej. `[0 -1 -5]`), la ganancia $K_0$ de la planta y la ganancia $K$ a evaluar según los mensajes en pantalla.

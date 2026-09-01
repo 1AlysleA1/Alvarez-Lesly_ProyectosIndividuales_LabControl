@@ -38,3 +38,17 @@ Este repositorio contiene los scripts de simulación y código desarrollado para
      proyecto2
      ```
   3. Ingresar los vectores de ceros (ej. `[]`), polos (ej. `[0 -1 -5]`), la ganancia $K_0$ de la planta y la ganancia $K$ a evaluar según los mensajes en pantalla.
+
+3. Ingresar los vectores de ceros (ej. `[]`), polos (ej. `[0 -1 -5]`), la ganancia $K_0$ de la planta y la ganancia $K$ a evaluar según los mensajes en pantalla.
+
+### Proyecto Individual 3: Análisis de Estabilidad y Reubicación Interactiva de Polos
+* **Archivo:** `proyecto3.m`
+* **Descripción:** Script interactivo compatible con MATLAB que construye la función de transferencia $G(s)$ en formato racional a partir de sus vectores de polos, ceros y ganancia $K_0$. Genera la matriz de Routh-Hurwitz con su evaluación formal de estabilidad y ofrece una interfaz gráfica interactiva en el plano $s$ para reubicar, agregar o eliminar polos (identificados individualmente como $P_n$) mediante selección por clic. Finalmente, calcula el compensador dinámico $C(s)$, muestra el Root Locus del sistema compensado y compara la respuesta al escalón en lazo cerrado entre el sistema original y el compensado.
+* **Uso:**
+  1. Abrir MATLAB.
+  2. Ejecutar en la consola:
+     ```matlab
+     proyecto3
+     ```
+  3. Ingresar el vector de ceros $Z$ (ej. `[]`), el vector de polos $P$ (ej. `[-1 -2 -5]`) y las ganancias solicitadas.
+  4. Utilizar el menú interactivo de la consola en conjunto con la ventana gráfica para hacer clic y manipular los polos $P_n$ según los requerimientos de diseño.
